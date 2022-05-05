@@ -33,7 +33,7 @@
             // 
             // btnCancel
             // 
-            this.btnCancel.Location = new System.Drawing.Point(442, 287);
+            this.btnCancel.Location = new System.Drawing.Point(542, 576);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(149, 69);
             this.btnCancel.TabIndex = 1;
@@ -45,10 +45,10 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(954, 729);
             this.Controls.Add(this.btnCancel);
             this.Name = "ViewAllQuotes";
-            this.Text = "ViewAllQuotes";
+            this.Text = "View All Quotes";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.ViewAllQuotes_FormClosed);
             this.ResumeLayout(false);
 

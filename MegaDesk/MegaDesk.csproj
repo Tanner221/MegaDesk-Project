@@ -94,7 +94,11 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="SearchQuotes.resx">
+      <DependentUpon>SearchQuotes.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ViewAllQuotes.resx">
       <DependentUpon>ViewAllQuotes.cs</DependentUpon>
     </EmbeddedResource>
@@ -110,6 +114,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\771713_table_512x512.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

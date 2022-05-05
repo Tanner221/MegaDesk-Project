@@ -64,6 +64,7 @@
             this.btnSeachQuotes.TabIndex = 2;
             this.btnSeachQuotes.Text = "Search Quotes";
             this.btnSeachQuotes.UseVisualStyleBackColor = true;
+            this.btnSeachQuotes.Click += new System.EventHandler(this.btnSeachQuotes_Click);
             // 
             // btnExit
             // 
@@ -77,11 +78,14 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(549, 243);
+            this.pictureBox1.Image = global::MegaDesk.Properties.Resources._771713_table_512x512;
+            this.pictureBox1.Location = new System.Drawing.Point(414, 103);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(269, 243);
+            this.pictureBox1.Size = new System.Drawing.Size(512, 512);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 4;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.WaitOnLoad = true;
             // 
             // MainMenu
             // 
